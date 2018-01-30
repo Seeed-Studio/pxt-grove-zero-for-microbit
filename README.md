@@ -4,9 +4,7 @@ A Microsoft MakeCode package for for Seeed Studio Grove Zero module.
 
 ## Basic usage
 
-### Sensor
-
-* Sound
+### Sound
 
 Show sad icon when the sound sensor detects a loud sound.
 ```blocks
@@ -27,7 +25,7 @@ Use ``||setSoundThresold||`` to set the sound threshold.
 
 Use ``||wasLoudSoundTriggered||`` to see if the sound sensor detected a loud sound.
 
-* Gesture
+### Gesture
 
 Show text on when the gesture sensor detects a motion.
 ```blocks
@@ -41,7 +39,7 @@ sensor.onGesture(GestureEvent.Down, () => {
 
 Use ``||wasGestureTriggered||`` to see if the gesture sensor detected a specific gesture.
 
-* Encoder
+### Encoder
 
 Show text on when the knob is rotated or pressed.
 ```blocks
@@ -58,7 +56,7 @@ sensor.onKnob(KnobEvent.Press, () => {
 
 Use ``||wasKnobTriggered||`` to see if the knob was rotated or pressed.
 
-* Color
+### Color
 
 Show text on when the color sensor detects a specific color.
 ```blocks
@@ -77,7 +75,7 @@ Use ``||getColor||`` to get the color value from the color sensor in R:G:B.
 
 Use ``||wasColorTriggered||`` to see if the color sensor detected a specific color.
 
-* Liner
+### Liner
 
 Show text on when the line follower recognized the position of the line underneath.
 ```blocks
@@ -94,16 +92,14 @@ sensor.onLinePosition(LinerEvent.Right, () => {
 
 Use ``||wasLinePositionTriggered||`` to see if the line follower recognized the position of the line underneath.
 
-### Motor
-
-* Servo
+### Servo
 
 Set the servo to 90 degree
 ```blocks
 motor.moveServoTo(90);
 ```
 
-* Wheel
+### Wheel
 
 Run the wheel.
 ```blocks
