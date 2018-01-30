@@ -1,0 +1,21 @@
+{
+    "name": "Grove Zero",
+    "version": "0.1.0",
+    "description": "A Microsoft MakeCode package for Seeed Studio Grove Zero module",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "driver.ts",
+        "sensor.ts",
+        "motor.ts",
+        "_locales/zh-cn/grove-zero-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
