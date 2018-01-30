@@ -23,6 +23,7 @@ basic.forever(() => {
 })
 ```
 Use ``||setSoundThresold||`` to set the sound threshold.
+
 Use ``||wasLoudSoundTriggered||`` to see if the sound sensor detected a loud sound.
 
 * Gesture
@@ -69,6 +70,7 @@ sensor.onColor(ColorEvent.B, () => {
 })
 ```
 Use ``||getColor||`` to get the color value from the color sensor in R:G:B.
+
 Use ``||wasColorTriggered||`` to see if the color sensor detected a specific color.
 
 * Liner
@@ -111,6 +113,7 @@ basic.forever(() => {
 })
 ```
 Use ``||setMotormoduleSpeed||`` to set the speed of motors on motor module.
+
 Use ``||whenMotormoduleLostLine||`` to set the actions and the moving speed of motor module when it lost the line(detected by the line follower).
 
 ## License
