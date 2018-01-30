@@ -22,6 +22,7 @@ basic.forever(() => {
     basic.showNumber(sound);
 })
 ```
+
 Use ``||setSoundThresold||`` to set the sound threshold.
 
 Use ``||wasLoudSoundTriggered||`` to see if the sound sensor detected a loud sound.
@@ -37,6 +38,7 @@ sensor.onGesture(GestureEvent.Down, () => {
     basic.showString("down")
 })
 ```
+
 Use ``||wasGestureTriggered||`` to see if the gesture sensor detected a specific gesture.
 
 * Encoder
@@ -53,6 +55,7 @@ sensor.onKnob(KnobEvent.Press, () => {
     basic.showString("*");
 })
 ```
+
 Use ``||wasKnobTriggered||`` to see if the knob was rotated or pressed.
 
 * Color
@@ -69,6 +72,7 @@ sensor.onColor(ColorEvent.B, () => {
     basic.showString("blue")
 })
 ```
+
 Use ``||getColor||`` to get the color value from the color sensor in R:G:B.
 
 Use ``||wasColorTriggered||`` to see if the color sensor detected a specific color.
@@ -87,8 +91,8 @@ sensor.onLinePosition(LinerEvent.Right, () => {
     basic.showString("right")
 })
 ```
-Use ``||wasLinePositionTriggered||`` to see if the line follower recognized the position of the line underneath.
 
+Use ``||wasLinePositionTriggered||`` to see if the line follower recognized the position of the line underneath.
 
 ### Motor
 
@@ -112,6 +116,7 @@ basic.forever(() => {
     basic.pause(2000);
 })
 ```
+
 Use ``||setMotormoduleSpeed||`` to set the speed of motors on motor module.
 
 Use ``||whenMotormoduleLostLine||`` to set the actions and the moving speed of motor module when it lost the line(detected by the line follower).
