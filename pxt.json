@@ -4,8 +4,7 @@
     "description": "A Microsoft MakeCode package for Seeed Studio Grove Zero module",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
