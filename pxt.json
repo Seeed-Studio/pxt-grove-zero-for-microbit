@@ -8,13 +8,12 @@
     },
     "files": [
         "README.md",
+        "main.ts",
         "driver.ts",
-        "sensor.ts",
-        "motor.ts",
         "_locales/zh-cn/grove-zero-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": true
 }
