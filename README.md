@@ -15,17 +15,17 @@ Simply add the 'Grove Zero' package in the [MakeCode for microbit](https://makec
 #### Chassis
 Use this block to move your chassis **forward/backward/left/right/clockwise/counter-clockwise** with different speed **slow/medium/fast**. 
 <p align = "left">
-    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_move.png" height="70">
+    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_move.png" height="50">
 </p>
 
 Use this block to **stop** the chassis. 
 <p align = "left">
-    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_stop.png" height="70">
+    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_stop.png" height="50">
 </p>
 
 Use this block to **set the speed of** the two motors on the chassis. A speed of "255" for both motors makes the chassis move forward at full speed, and a speed of "-255" for both motors make the chassis move backward at full speed.
 <p align = "left">
-    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_set_motors.png" height="70">
+    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_set_motors.png" height="50">
 </p>
 
 
