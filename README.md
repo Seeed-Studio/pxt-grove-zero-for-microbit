@@ -1,128 +1,34 @@
 # Grove Zero - BitKit
 
-This Microsoft MakeCode package is used as an *Grove Zero - BitKit extension* for micro:bit.
+This Microsoft MakeCode package is used as an **Grove Zero - BitKit extension** for micro:bit.
 
 ## Basic Usage
 
-### Add the extension
+### 1. Add the extension
 
 Simply add the 'Grove Zero' package in the [MakeCode for microbit](https://makecode.microbit.org/), then program your micro:bit with the drag and drop blocks as usual.
-<div style="width: 400px">
-    ![Add Exntension](http://120.79.67.145/showdoc/Public/Uploads/2019-02-12/5c628a9747589.png)
-</div>
+<p align = "left">
+    <img src="http://120.79.67.145/showdoc/Public/Uploads/2019-02-12/5c629067383ed.png" alt="Sample" width="300">
+</p>
 
-### Sound
+### 2. The blocks
 
-Show sad icon when the sound sensor detects a loud sound.
-```blocks
-sensor.onLoudSound(() => {
-    basic.showIcon(IconNames.Sad);
-})
-```
-Get sound value and display on led matrix.
-```blocks
-let sound = 0;
-basic.forever(() => {
-    sound = sensor.getSoundLevel();
-    basic.showNumber(sound);
-})
-```
+#### Chassis
 
-Use ``||setSoundThresold||`` to set the sound threshold.
+<p align = "left">
+    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_move.png" height="70">
+</p>
+Use this block to move your chassis **forward/backward/.../clockwise/counter-clockwise** with different speed **slow/medium/fast**. 
 
-Use ``||wasLoudSoundTriggered||`` to see if the sound sensor detected a loud sound.
+<p align = "left">
+    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_stop.png" height="70">
+</p>
+Use this block to **stop** the chassis. 
 
-### Gesture
-
-Show text on when the gesture sensor detects a motion.
-```blocks
-sensor.onGesture(GestureEvent.Up, () => {
-    basic.showString("up")
-})
-sensor.onGesture(GestureEvent.Down, () => {
-    basic.showString("down")
-})
-```
-
-Use ``||wasGestureTriggered||`` to see if the gesture sensor detected a specific gesture.
-
-### Encoder
-
-Show text on when the knob is rotated or pressed.
-```blocks
-sensor.onKnob(KnobEvent.Clockwise, () => {
-    basic.showString("+");
-})
-sensor.onKnob(KnobEvent.Anticlockwise, () => {
-    basic.showString("-");
-})
-sensor.onKnob(KnobEvent.Press, () => {
-    basic.showString("*");
-})
-```
-
-Use ``||wasKnobTriggered||`` to see if the knob was rotated or pressed.
-
-### Color
-
-Show text on when the color sensor detects a specific color.
-```blocks
-sensor.onColor(ColorEvent.R, () => {
-    basic.showString("red")
-})
-sensor.onColor(ColorEvent.G, () => {
-    basic.showString("green")
-})
-sensor.onColor(ColorEvent.B, () => {
-    basic.showString("blue")
-})
-```
-
-Use ``||getColor||`` to get the color value from the color sensor in R:G:B.
-
-Use ``||wasColorTriggered||`` to see if the color sensor detected a specific color.
-
-### Liner
-
-Show text on when the line follower recognized the position of the line underneath.
-```blocks
-sensor.onLinePosition(LinerEvent.Left, () => {
-    basic.showString("left")
-})
-sensor.onLinePosition(LinerEvent.Middle, () => {
-    basic.showString("middle")
-})
-sensor.onLinePosition(LinerEvent.Right, () => {
-    basic.showString("right")
-})
-```
-
-Use ``||wasLinePositionTriggered||`` to see if the line follower recognized the position of the line underneath.
-
-### Servo
-
-Set the servo to 90 degree
-```blocks
-motor.moveServoTo(90);
-```
-
-### Wheel
-
-Run the wheel.
-```blocks
-basic.forever(() => {
-    motor.setMotormoduleAction(DirectionTpye.Forward, SpeedTpye.Fast);
-    basic.pause(2000);
-    motor.setMotormoduleAction(DirectionTpye.Backward, SpeedTpye.Fast);
-    basic.pause(2000);
-    motor.stopMotormodule();
-    basic.pause(2000);
-})
-```
-
-Use ``||setMotormoduleSpeed||`` to set the speed of motors on motor module.
-
-Use ``||whenMotormoduleLostLine||`` to set the actions and the moving speed of motor module when it lost the line(detected by the line follower).
+<p align = "left">
+    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/chassis_set_motors.png" height="70">
+</p>
+Use this block to **set the speed of** the two motors on the chassis. A speed of "255" for both motors makes the chassis move forward at full speed, and a speed of "-255" for both motors make the chassis move backward at full speed
 
 ## License
 
