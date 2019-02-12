@@ -4,6 +4,13 @@ This Microsoft MakeCode package is used as an *Grove Zero - BitKit extension* fo
 
 ## Basic Usage
 
+### Add the extension
+
+Simply add the 'Grove Zero' package in the [MakeCode for microbit](https://makecode.microbit.org/), then program your micro:bit with the drag and drop blocks as usual.
+<div style="width: 400px">
+    ![Add Exntension](http://120.79.67.145/showdoc/Public/Uploads/2019-02-12/5c628a9747589.png)
+</div>
+
 ### Sound
 
 Show sad icon when the sound sensor detects a loud sound.
