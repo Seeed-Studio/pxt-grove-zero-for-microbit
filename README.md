@@ -1,8 +1,8 @@
-# Grove Zero
+# Grove Zero - BitKit
 
-A Microsoft MakeCode package for for Seeed Studio Grove Zero module.
+This Microsoft MakeCode package is used as an *Grove Zero - BitKit extension* for micro:bit.
 
-## Basic usage
+## Basic Usage
 
 ### Sound
 
