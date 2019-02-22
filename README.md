@@ -52,8 +52,10 @@ Provided that **the line width is about 5mm** (if you use the marker included in
     <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/about%20the%20line%20position.png" height="200">
 </p>
 
->> In case that the user drew a line wider than 5mm (which most people do that), the Color Line Follower works in a way that trys to cover as many situations as possible. As a result, when the sensor sees a line at 'middle', it could be a thin 5mm line detected by the middle optical sensor, or a wide 10mm line detected by the 3 middle optical sensors simutaneously. 
-
+> In some cases, users may draw a line wider than 5mm (which most people do that). As a result, when the sensor sees a line at 'middle', it could be a thin 5mm line detected by the middle optical sensor, or a wide 10mm line detected by the 3 middle optical sensors simutaneously. To the cover as many situations as possible and chieve a smooth line following the Color Line Follower works in a way as illustrated below:
+<p align = "left">
+    <img src="https://github.com/MiroChao/image-gallery/blob/master/BitKit/line%20position.png">
+</p>
 
 **Color Detections**
 
