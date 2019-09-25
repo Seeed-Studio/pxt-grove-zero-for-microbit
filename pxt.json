@@ -1,6 +1,6 @@
 {
-    "name": "Grove Zero Bit Kit",
-    "version": "1.0.0",
+    "name": "pxt-grove-zero-for-microbit",
+    "version": "1.0.1",
     "description": "The Grove Zero Bit Kit micro:Car extension for micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -10,7 +10,8 @@
         "README.md",
         "main.ts",
         "driver.ts",
-        "_locales/zh-cn/grove-zero-strings.json"
+        "_locales/zh/pxt-grove-zero-for-microbit-jsdoc-strings.json",
+        "_locales/zh/pxt-grove-zero-for-microbit-strings.json"
     ],
     "testFiles": [
         "test.ts"
