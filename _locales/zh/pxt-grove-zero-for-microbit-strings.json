@@ -2,7 +2,7 @@
   "BitKit.getColor|block": "识色循迹传感器 颜色值",
   "BitKit.onColor|block": "当识色循迹传感器检测到 |%event",
   "BitKit.onLinePosition|block": "当黑线位于识色循迹传感器的|%event",
-  "BitKit.setMotormoduleAction|block": "小车底盘 |%direction| 速度为",
+  "BitKit.setMotormoduleAction|block": "小车底盘 |%direction| 速度为|%speed|",
   "BitKit.setMotormoduleSpeed|block": "小车底盘 左轮动力|%left|, 右轮动力 |%right|",
   "BitKit.stopMotormodule|block": "小车底盘停止运动",
   "BitKit.wasColorTriggered|block": "识色循迹传感器检测到|%event|",
